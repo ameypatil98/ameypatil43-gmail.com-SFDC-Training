@@ -1,0 +1,23 @@
+<apex:page controller="CandidateInsert">
+       <apex:form >
+        <apex:pageBlock title="Candidate Information">
+            <apex:pageBlockSection >
+               
+                <apex:inputField value="{!CName.Salutation__c}"/>
+                <apex:inputField value="{!CName.First_Name__c}" />
+                <apex:inputField value="{!CName.Last_Name__c}" />
+                <apex:inputField value="{!CName.DOB__c}" />
+                <apex:inputField value="{!CName.Email__c}" />
+                <apex:inputField value="{!CName.Country__c}" />
+                <apex:inputField value="{!CName.State__c}" />
+                <apex:inputField value="{!CName.Status__c}" />
+                <apex:inputField value="{!CName.Expected_Salary__c}" />
+                <apex:inputField value="{!CName.Job__c}" />
+            </apex:pageBlockSection>
+             <apex:pageBlockButtons >
+                 <apex:commandButton value="Submit" action="{!insertMe}"/>
+             </apex:pageBlockButtons>
+        </apex:pageBlock>    
+    </apex:form>
+    
+</apex:page>

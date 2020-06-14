@@ -1,0 +1,60 @@
+body .bPageBlock .pbBody .red .pbSubheader{
+                background-color:#c00000;
+            }
+            body .bPageBlock .pbBody .grey .pbSubheader{
+                background-color:#c0c0c0;
+            }
+            body .bPageBlock .pbBody .grey .pbSubheader h3{
+                color:#000;
+            }
+         .container{
+            margin:0px auto;
+            background:#eee;
+            width:50%;
+            }
+            h1
+            {
+            color:blue;
+            font-Size:15px;
+            }
+           .sample
+            {
+            width:90px;
+            height:50px;
+            }
+           .form-area{
+             padding:1%;
+             border:1px solid #003;
+           
+            }
+            .pbsection{
+             margin-bottom:50px;
+             margin-top:500px;
+             padding:800px;
+            }
+       	 .pbsection1{
+             margin-bottom:10px;
+             padding:100px;
+             margin-top:500px;
+            }
+            
+           .error{
+              font-weight:bold;
+              color:#900;
+            
+            }
+           
+
+            
+            #createform.pblock.pbsection.des
+            {
+            	width:300px;
+            	height:100px;
+            }
+            .buttonStyle {
+            width:30% ;
+            height:30%;
+			background-color:green ;
+ 			text-align:center;
+            padding-top:10px;
+ }
